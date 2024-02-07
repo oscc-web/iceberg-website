@@ -107,21 +107,21 @@ module.exports = {
                 },
                 googleAnalytics: {
                     trackingID: "xxx"
+                },
+                sitemap: {
+                    changefreq: "weekly",
+                    priority: 0.5,
+                    ignorePatterns: ["/tags/**"],
+                    filename: "sitemap.xml"
                 }
-            },
-        ],
+            }
+        ]
     ],
     stylesheets: [
         "https://fonts.googleapis.com/css?family=Sen|Source+Code+Pro",
         "https://at-ui.github.io/feather-font/css/iconfont.css"
     ],
     plugins: [
-        [
-            "@docusaurus/plugin-sitemap",
-            {
-                changefreq: "weekly",
-                priority: 0.5
-            },
-        ],
     ],
+    onBrokenLinks: "ignore"
 };
