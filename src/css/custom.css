@@ -1,0 +1,150 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+
+/* You can override the default Infima variables here. */
+
+:root {
+    --ifm-color-primary: #3e7afc;
+    --ifm-font-base-color: #021d3d;
+    --ifm-color-primary-dark: #3e7afc;
+    --ifm-color-primary-darker: #3345DF;
+    --ifm-color-primary-darkest: #3A2ABF;
+    --ifm-color-primary-light: #55AAFF;
+    --ifm-color-primary-lighter: #6DD3FF;
+    --ifm-color-primary-lightest: #86F3FF;
+    --ifm-code-font-size: 95%;
+    --ifm-global-radius: 0.4rem;
+    --ifm-heading-font-family: Sen, var(--ifm-font-family-base);
+    --ifm-font-family-base: Sen, -apple-system, BlinkMacSystemFont, sans-serif;
+    --ifm-navbar-background-color: var(--ifm-color-primary);
+    --ifm-navbar-link-color: white;
+    --ifm-navbar-link-hover-color: #eef4ff;
+    --ifm-footer-background-color: #3e7afc;
+    --ifm-color-primary-rgb: 40, 217, 242;
+    --ifm-footer-link-color: white;
+    --ifm-footer-link-hover-color: white;
+    --ifm-footer-title-color: white;
+    --ifm-footer-color: white;
+    --ifm-font-weight-semibold: 600;
+    --ifm-font-size-base: 1rem;
+    --ifm-panel-background-color: var(--ifm-color-primary);
+    --ifm-panel-background-color-rgb: 255, 255, 255;
+    --ifm-panel-background-color-solid: #FFFFFF;
+    --ifm-panel-background-color-active: #eef4ff;
+    --ifm-panel-background-color-active-solid: #eef4ff;
+    --ifm-table-stripe-background: #fff;
+    --ifm-link-hover-decoration: none;
+    --ifm-color-success: #00d0a0;
+    --ifm-color-success-dark: #00B9B6;
+    --ifm-color-success-darker: #00B9B6;
+    --ifm-color-success-darkest: #00B9B6;
+    --ifm-color-success-light: #22D98C;
+    --ifm-color-success-lighter: #44E280;
+    --ifm-color-success-lightest: #66E97D;
+    --ifm-link-color: #3755BE;
+}
+
+.docusaurus-highlight-code-line {
+    background-color: rgb(72, 77, 91);
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
+}
+
+.navbar-sidebar .menu {
+    --ifm-menu-color: white;
+}
+
+pre {
+    border-color: var(--ifm-color-emphasis-300);
+    border-radius: var(--ifm-pagination-nav-border-radius);
+    border-style: solid;
+    border-width: 1px;
+}
+
+header h1 {
+    font-family: Sen, var(--ifm-font-family-base);
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+.navbar__title {
+    font-size: 2.25rem;
+}
+
+.navbar__link {
+    font-size: 1rem;
+    font-family: var(--ifm-heading-font-family);
+}
+
+.navbar__toggle {
+    color: white;
+    fill: currentColor;
+}
+
+.learn-more {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.contents {
+    font-size: 0.95rem;
+}
+
+.cta-btn {
+    border-radius: 2em;
+    margin-right: 1em;
+    min-width: 240px;
+}
+
+@media (max-width: 480px) {
+    .cta-btn {
+        margin-right: 0;
+        margin-top: 0.5em;
+    }
+}
+
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+figcaption {
+    text-align: center;
+    color: var(--ifm-menu-color);
+}
+
+figcaption::before {
+    content: '🔎';
+}
+
+footer .footer__link-item {
+    opacity: .5;
+    text-decoration: none;
+    transition: opacity 0.2s linear;
+    font-family: Sen, var(--ifm-font-family-base);
+    font-weight: 600;
+}
+
+html[data-theme='dark'] footer__logo {
+    /* To be added for dark theme*/
+}
+
+html[data-theme="dark"] {
+    /* To be added for dark theme*/
+}
+
+footer .container .text {
+    color: white;
+    font-weight: 700;
+}
