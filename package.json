@@ -1,14 +1,15 @@
 {
-    "name": "documentation",
+    "name": "iceberg-website",
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "start": "export NODE_OPTIONS=--openssl-legacy-provider && docusaurus start",
-        "build": "export NODE_OPTIONS=--openssl-legacy-provider && docusaurus build",
-        "swizzle": "export NODE_OPTIONS=--openssl-legacy-provider && docusaurus swizzle",
-        "deploy": "export NODE_OPTIONS=--openssl-legacy-provider && docusaurus deploy"
+        "start": "docusaurus start",
+        "build": "docusaurus build",
+        "swizzle": "docusaurus swizzle",
+        "deploy": "docusaurus deploy"
     },
     "dependencies": {
+        "@docsearch/js": "^3.5.2",
         "@docusaurus/core": "^2.0.0-alpha.50",
         "@docusaurus/preset-classic": "^2.0.0-alpha.50",
         "classnames": "^2.2.6",

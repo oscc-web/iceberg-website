@@ -1,131 +1,126 @@
 module.exports = {
-    title: 'Axioms Developer Hub',
-    tagline: 'Add strong authentication, fine-grained authorization in your apps, devices, and APIs.',
-    url: 'https://axioms.io',
-    baseUrl: '/',
-    favicon: 'https://static.axioms.io/branding/favicon.png',
-    organizationName: 'axioms-io',
-    projectName: 'developer',
+    title: "Axioms Developer Hub",
+    tagline: "Add strong authentication, fine-grained authorization in your apps, devices, and APIs.",
+    url: "https://axioms.io",
+    baseUrl: "/",
+    favicon: "https://static.axioms.io/branding/favicon.png",
+    organizationName: "axioms-io",
+    projectName: "developer",
     themeConfig: {
-        disableDarkMode: true,
-        hideOnScroll: true,
-        algolia: {
-            apiKey: '9bfad31d9c97b28d4e5f0bfe57dbffaf',
-            indexName: 'axioms_developer'
+        color: {
+            disableSwitch: true
         },
+        hideOnScroll: true,
         navbar: {
             title: "Axioms",
-            links: [{
-                    to: 'docs/getting-started/index',
-                    activeBasePath: 'docs',
-                    label: 'Docs',
-                    position: 'left',
+            items: [{
+                    to: "docs/getting-started/index",
+                    activeBasePath: "docs",
+                    label: "Docs",
+                    position: "left",
                 },
-                { to: 'blog', label: 'Blog', position: 'left' },
+                { to: "blog", label: "Blog", position: "left" },
                 {
-                    href: 'https://github.com/axioms-io',
-                    label: 'GitHub',
-                    position: 'left',
+                    href: "https://github.com/axioms-io",
+                    label: "GitHub",
+                    position: "left",
                 },
                 {
-                    href: 'https://jwtdebugger.axioms.io/',
-                    label: 'JWT Debugger',
-                    position: 'right',
+                    href: "https://jwtdebugger.axioms.io/",
+                    label: "JWT Debugger",
+                    position: "right",
                 },
-            ],
+            ]
         },
         prism: {
-            theme: require('prism-react-renderer/themes/github'),
-            darkTheme: require('prism-react-renderer/themes/dracula'),
+            theme: require("prism-react-renderer/themes/github"),
+            darkTheme: require("prism-react-renderer/themes/dracula"),
         },
         footer: {
-            style: 'light',
+            style: "light",
             links: [{
-                    title: 'Docs',
+                    title: "Docs",
                     items: [{
-                            label: 'Getting Started',
-                            to: 'docs/getting-started/index',
+                            label: "Getting Started",
+                            to: "docs/getting-started/index",
                         },
                         {
-                            label: 'SDKs & Samples',
-                            to: 'docs/sdks-samples/index',
+                            label: "SDKs & Samples",
+                            to: "docs/sdks-samples/index",
                         },
                         {
-                            label: 'REST APIs',
-                            href: '#',
+                            label: "REST APIs",
+                            href: "#",
                         },
                     ],
                 },
                 {
-                    title: 'Community',
+                    title: "Community",
                     items: [{
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/questions/tagged/axioms',
+                            label: "Stack Overflow",
+                            href: "https://stackoverflow.com/questions/tagged/axioms",
                         },
                         {
-                            label: 'GitHub',
-                            href: 'https://github.com/axioms-io',
+                            label: "GitHub",
+                            href: "https://github.com/axioms-io",
                         },
                         {
-                            label: 'Community',
-                            href: 'https://community.axioms.io',
+                            label: "Community",
+                            href: "https://community.axioms.io",
                         },
                     ],
                 },
                 {
-                    title: 'Connect',
+                    title: "Connect",
                     items: [{
-                            label: 'LinkedIn',
-                            href: 'https://www.linkedin.com/company/axioms-io/',
+                            label: "LinkedIn",
+                            href: "https://www.linkedin.com/company/axioms-io/",
                         },
                         {
-                            label: 'Angel',
-                            href: 'https://angel.co/company/axioms-io',
+                            label: "Angel",
+                            href: "https://angel.co/company/axioms-io",
                         },
                         {
-                            label: 'Twitter',
-                            href: 'https://twitter.com/axioms-io',
+                            label: "Twitter",
+                            href: "https://twitter.com/axioms-io",
                         },
                     ],
                 },
             ],
             logo: {
-                alt: 'D3 Metalab',
-                src: 'img/d3ml-logo.svg',
-                href: 'https://d3ml.com',
+                alt: "D3 Metalab",
+                src: "img/d3ml-logo.svg",
+                href: "https://d3ml.com",
             },
             copyright: `Copyright © ${new Date().getFullYear()} D3 Metalab. All rights reserved.`,
-        },
-        googleAnalytics: {
-            trackingID: 'UA-155726247-2',
-            // Optional fields.
-            anonymizeIP: true, // Should IPs be anonymized?
         }
     },
     presets: [
         [
-            '@docusaurus/preset-classic',
+            "@docusaurus/preset-classic",
             {
                 docs: {
-                    sidebarPath: require.resolve('./sidebars.js')
+                    sidebarPath: require.resolve("./sidebars.js")
                 },
                 theme: {
-                    customCss: require.resolve('./src/css/custom.css'),
+                    customCss: require.resolve("./src/css/custom.css"),
                 },
+                googleAnalytics: {
+                    trackingID: "xxx"
+                }
             },
         ],
     ],
     stylesheets: [
-        'https://fonts.googleapis.com/css?family=Sen|Source+Code+Pro',
-        'https://at-ui.github.io/feather-font/css/iconfont.css'
+        "https://fonts.googleapis.com/css?family=Sen|Source+Code+Pro",
+        "https://at-ui.github.io/feather-font/css/iconfont.css"
     ],
     plugins: [
         [
-            '@docusaurus/plugin-sitemap',
+            "@docusaurus/plugin-sitemap",
             {
-                cacheTime: 600 * 1000, // 600 sec - cache purge period
-                changefreq: 'weekly',
-                priority: 0.5,
+                changefreq: "weekly",
+                priority: 0.5
             },
         ],
     ],
