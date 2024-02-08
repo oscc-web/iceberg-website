@@ -6,7 +6,10 @@
         "start": "docusaurus start",
         "build": "docusaurus build",
         "swizzle": "docusaurus swizzle",
-        "deploy": "docusaurus deploy"
+        "tar": "npm run build && tar -czvf build.tar.gz -C build .",
+        "deploy-pre": "npm run tar; scp build.tar.gz iceberg@97.74.84.46:~",
+        "deploy-aft": "ssh iceberg@97.74.84.46 'rm -rf ~/iceberg-deploy && mkdir -p ~/iceberg-deploy && tar -xzvf ~/build.tar.gz -C ~/iceberg-deploy'",
+        "deploy": "npm run deploy-pre && npm run deploy-aft"
     },
     "dependencies": {
         "@docsearch/js": "^3.5.2",

@@ -3,6 +3,7 @@
 
 # Production
 /build
+build.tar.gz
 
 # Generated files
 .docusaurus
