@@ -148,3 +148,7 @@ footer .container .text {
     color: white;
     font-weight: 700;
 }
+
+.navbar {
+    height: 4.5rem;
+}
