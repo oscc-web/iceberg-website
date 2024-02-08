@@ -1,33 +1,77 @@
-# iceberg-website
+<p align="center">
+    <img alt="Logo" src="https://github.com/oscc-web/ieda-website-resources/blob/main/images/logo/logo.png" width="150">
+</p>
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+<h1>
+    <p align="center">冰山项目官方网站</p>
+</h1>
 
-### Installation
+<p align="center">
+    <a title="Project Version">
+        <img alt="Project Version" src="https://img.shields.io/badge/version-1.0.0-brightgreen" />
+    </a>
+        <a title="Node Version" target="_blank" href="https://nodejs.org">
+        <img alt="Node Version" src="https://img.shields.io/badge/Node-%3E%3D16.19.1-blue" />
+    </a>
+    <a title="License" target="_blank" href="https://github.com/oscc-web/iceberg-website/blob/master/LICENSE">
+        <img alt="License" src="https://img.shields.io/github/license/oscc-web/iceberg-website.svg" />
+    </a>
+    <br/>
+    <a title="GitHub Watchers" target="_blank" href="https://github.com/oscc-web/iceberg-website/watchers">
+        <img alt="GitHub Watchers" src="https://img.shields.io/github/watchers/oscc-web/iceberg-website.svg?label=Watchers&style=social" />
+    </a>
+    <a title="GitHub Stars" target="_blank" href="https://github.com/oscc-web/iceberg-website/stargazers">
+        <img alt="GitHub Stars" src="https://img.shields.io/github/stars/oscc-web/iceberg-website.svg?label=Stars&style=social" />
+    </a>
+    <a title="GitHub Forks" target="_blank" href="https://github.com/oscc-web/iceberg-website/network/members">
+        <img alt="GitHub Forks" src="https://img.shields.io/github/forks/oscc-web/iceberg-website.svg?label=Forks&style=social" />
+    </a>
+</p>
 
+<p align="center">中文简体 | <a title="English" href="README.md">English</a></p>
+
+## 使用
+
+### 下载仓库
+
+```sh
+$> cd your-workspaces
+$> git clone git@github.com:oscc-web/iceberg-website.git
 ```
-$ npm install
+
+### 更新依赖
+
+```sh
+$> npm install
 ```
 
-### Local Development
+### 运行网站
 
-```
-$ npm run start
-```
-
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ npm run build
+```sh
+$> npm run start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### 更新仓库
 
-### Deployment
-
-```
-$ GIT_USER=abhishektiwari USE_SSH=true npm run deploy
+```sh
+$> git pull
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## 开发
+
+### 内容维护
+
+- 无。
+
+### 网站维护
+
+- 如需部署网站到远程服务器，请在联系管理员添加SSH密钥后执行以下命令：
+
+    ```sh
+    $> npm run deploy
+    ```
+
+## 感谢
+
+- [Docusaurus](https://docusaurus.io/)
+- [Axioms](https://github.com/abhishektiwari/developer)
