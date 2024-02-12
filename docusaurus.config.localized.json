@@ -1,0 +1,10 @@
+{
+  "tagline": {
+    "zh-CN": "快速构建经过优化的网站，使得用户专注于内容的创作",
+    "en": "Build optimized websites quickly, focus on your content"
+  },
+  "remarkRehypeOptions_footnotes": {
+    "zh-CN": "脚注",
+    "en": "Footnotes"
+  }
+}

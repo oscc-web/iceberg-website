@@ -11,7 +11,7 @@
         <img alt="Project Version" src="https://img.shields.io/badge/version-1.0.0-brightgreen" />
     </a>
         <a title="Node Version" target="_blank" href="https://nodejs.org">
-        <img alt="Node Version" src="https://img.shields.io/badge/Node-%3E%3D16.19.1-blue" />
+        <img alt="Node Version" src="https://img.shields.io/badge/Node-%3E%3D18.19.0-blue" />
     </a>
     <a title="License" target="_blank" href="https://github.com/oscc-web/iceberg-website/blob/master/LICENSE">
         <img alt="License" src="https://img.shields.io/github/license/oscc-web/iceberg-website.svg" />
@@ -42,13 +42,13 @@ $> git clone git@github.com:oscc-web/iceberg-website.git
 ### 更新依赖
 
 ```sh
-$> npm install
+$> yarn install
 ```
 
 ### 运行网站
 
 ```sh
-$> npm run start
+$> yarn start
 ```
 
 ### 更新仓库
@@ -61,17 +61,17 @@ $> git pull
 
 ### 内容维护
 
-- 无。
+-
 
 ### 网站维护
 
 - 如需部署网站到远程服务器，请在联系管理员添加SSH密钥后执行以下命令：
 
     ```sh
-    $> npm run deploy
+    $> yarn deploy
     ```
 
 ## 感谢
 
 - [Docusaurus](https://docusaurus.io/)
-- [Axioms](https://github.com/abhishektiwari/developer)
+- [Docusaurus Website](https://github.com/facebook/docusaurus/website)
