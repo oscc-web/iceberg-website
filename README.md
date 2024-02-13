@@ -61,7 +61,13 @@ $> git pull
 
 ### 内容维护
 
--
+- 如果需要为网站添加新的语言（比如英文`en`），请在仓库的根目录依次执行如下命令。命令成功被执行后，系统会在`i18n`目录下创建跟语言同名的子目录，后续只需翻译该目录下的内容即可，其他信息请移步到[官方文档](https://docusaurus.io/zh-CN/docs/i18n/introduction)。
+
+     ```sh
+     $> yarn write-translations --locale en
+     $> ./i18n.sh en
+     ```
+
 
 ### 网站维护
 
