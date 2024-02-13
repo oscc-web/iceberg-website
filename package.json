@@ -30,7 +30,11 @@
     "netlify:crowdin:downloadTranslationsFailSafe": "yarn netlify:crowdin:wait && (yarn --cwd .. crowdin:download:website || echo 'Crowdin translation download failure (only internal PRs have access to the Crowdin env token)')",
     "netlify:crowdin:uploadSources": "yarn --cwd .. crowdin:upload:website",
     "netlify:test": "yarn netlify:build:deployPreview && npx --package netlify-cli netlify dev -- --debug",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "tar": "yarn build; tar -czvf build.tar.gz -C build .",
+    "deploy-pre": "yarn tar; scp build.tar.gz iceberg@97.74.84.46:~",
+    "deploy-aft": "ssh iceberg@97.74.84.46 'rm -rf ~/iceberg-deploy && mkdir -p ~/iceberg-deploy && tar -xzvf ~/build.tar.gz -C ~/iceberg-deploy'",
+    "deploy": "yarn deploy-pre && yarn deploy-aft"
   },
   "dependencies": {
     "@crowdin/cli": "^3.13.0",

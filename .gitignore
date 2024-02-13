@@ -44,4 +44,4 @@ CrowdinTranslations_*.zip
 
 .netlify
 
-build.targ.gz
+build.tar.gz
