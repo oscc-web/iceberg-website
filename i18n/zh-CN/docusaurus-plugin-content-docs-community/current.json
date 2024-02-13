@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.community.link.Changelog": {
+    "message": "Changelog",
+    "description": "The label for link Changelog in sidebar community, linking to /changelog"
+  },
+  "sidebar.community.link.Showcase": {
+    "message": "Showcase",
+    "description": "The label for link Showcase in sidebar community, linking to /showcase"
+  },
+  "sidebar.community.link.Feature Requests": {
+    "message": "Feature Requests",
+    "description": "The label for link Feature Requests in sidebar community, linking to /feature-requests"
+  },
+  "sidebar.community.link.Chat with us on Discord": {
+    "message": "Chat with us on Discord",
+    "description": "The label for link Chat with us on Discord in sidebar community, linking to https://discord.gg/docusaurus"
+  }
+}

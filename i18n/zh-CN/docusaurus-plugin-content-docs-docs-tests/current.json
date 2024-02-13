@@ -1,0 +1,354 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.sidebar.category.Tests": {
+    "message": "Tests",
+    "description": "The label for category Tests in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.ascii": {
+    "message": "ascii",
+    "description": "The label for category ascii in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.folder": {
+    "message": "folder",
+    "description": "The label for category folder in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category Links": {
+    "message": "Category Links",
+    "description": "The label for category Category Links in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Introduction": {
+    "message": "Introduction",
+    "description": "The label for category Introduction in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.no-index-doc": {
+    "message": "no-index-doc",
+    "description": "The label for category no-index-doc in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.regular-category": {
+    "message": "regular-category",
+    "description": "The label for category regular-category in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category with a doc of category's name": {
+    "message": "Category with a doc of category's name",
+    "description": "The label for category Category with a doc of category's name in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category with index.md doc": {
+    "message": "Category with index.md doc",
+    "description": "The label for category Category with index.md doc in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category with readme.md doc": {
+    "message": "Category with readme.md doc",
+    "description": "The label for category Category with readme.md doc in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Custom Props": {
+    "message": "Custom Props",
+    "description": "The label for category Custom Props in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.links": {
+    "message": "links",
+    "description": "The label for category links in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Visibility": {
+    "message": "Visibility",
+    "description": "The label for category Visibility in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.only-drafts": {
+    "message": "only-drafts",
+    "description": "The label for category only-drafts in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Only Drafts - Subcategory index draft": {
+    "message": "Only Drafts - Subcategory index draft",
+    "description": "The label for category Only Drafts - Subcategory index draft in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.only-unlisteds": {
+    "message": "only-unlisteds",
+    "description": "The label for category only-unlisteds in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Only Unlisteds - Subcategory index unlisted": {
+    "message": "Only Unlisteds - Subcategory index unlisted",
+    "description": "The label for category Only Unlisteds - Subcategory index unlisted in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.some-drafts": {
+    "message": "some-drafts",
+    "description": "The label for category some-drafts in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Some Drafts - Subcategory index draft": {
+    "message": "Some Drafts - Subcategory index draft",
+    "description": "The label for category Some Drafts - Subcategory index draft in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.some-unlisteds": {
+    "message": "some-unlisteds",
+    "description": "The label for category some-unlisteds in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Some Unlisteds - Subcategory index unlisted": {
+    "message": "Some Unlisteds - Subcategory index unlisted",
+    "description": "The label for category Some Unlisteds - Subcategory index unlisted in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Sidebar item description tests": {
+    "message": "Sidebar item description tests",
+    "description": "The label for category Sidebar item description tests in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category without description": {
+    "message": "Category without description",
+    "description": "The label for category Category without description in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category with description": {
+    "message": "Category with description",
+    "description": "The label for category Category with description in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Another category with index": {
+    "message": "Another category with index",
+    "description": "The label for category Another category with index in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Huge sidebar category": {
+    "message": "Huge sidebar category",
+    "description": "The label for category Huge sidebar category in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 0 (level 1)": {
+    "message": "Category 0 (level 1)",
+    "description": "The label for category Category 0 (level 1) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 0 (level 2)": {
+    "message": "Category 0 (level 2)",
+    "description": "The label for category Category 0 (level 2) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 0 (level 3)": {
+    "message": "Category 0 (level 3)",
+    "description": "The label for category Category 0 (level 3) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 1 (level 3)": {
+    "message": "Category 1 (level 3)",
+    "description": "The label for category Category 1 (level 3) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 2 (level 3)": {
+    "message": "Category 2 (level 3)",
+    "description": "The label for category Category 2 (level 3) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 3 (level 3)": {
+    "message": "Category 3 (level 3)",
+    "description": "The label for category Category 3 (level 3) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 4 (level 3)": {
+    "message": "Category 4 (level 3)",
+    "description": "The label for category Category 4 (level 3) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 5 (level 3)": {
+    "message": "Category 5 (level 3)",
+    "description": "The label for category Category 5 (level 3) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 6 (level 3)": {
+    "message": "Category 6 (level 3)",
+    "description": "The label for category Category 6 (level 3) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 7 (level 3)": {
+    "message": "Category 7 (level 3)",
+    "description": "The label for category Category 7 (level 3) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 1 (level 2)": {
+    "message": "Category 1 (level 2)",
+    "description": "The label for category Category 1 (level 2) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 2 (level 2)": {
+    "message": "Category 2 (level 2)",
+    "description": "The label for category Category 2 (level 2) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 3 (level 2)": {
+    "message": "Category 3 (level 2)",
+    "description": "The label for category Category 3 (level 2) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 4 (level 2)": {
+    "message": "Category 4 (level 2)",
+    "description": "The label for category Category 4 (level 2) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 5 (level 2)": {
+    "message": "Category 5 (level 2)",
+    "description": "The label for category Category 5 (level 2) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 6 (level 2)": {
+    "message": "Category 6 (level 2)",
+    "description": "The label for category Category 6 (level 2) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 7 (level 2)": {
+    "message": "Category 7 (level 2)",
+    "description": "The label for category Category 7 (level 2) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 1 (level 1)": {
+    "message": "Category 1 (level 1)",
+    "description": "The label for category Category 1 (level 1) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 2 (level 1)": {
+    "message": "Category 2 (level 1)",
+    "description": "The label for category Category 2 (level 1) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 3 (level 1)": {
+    "message": "Category 3 (level 1)",
+    "description": "The label for category Category 3 (level 1) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 4 (level 1)": {
+    "message": "Category 4 (level 1)",
+    "description": "The label for category Category 4 (level 1) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 5 (level 1)": {
+    "message": "Category 5 (level 1)",
+    "description": "The label for category Category 5 (level 1) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 6 (level 1)": {
+    "message": "Category 6 (level 1)",
+    "description": "The label for category Category 6 (level 1) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Category 7 (level 1)": {
+    "message": "Category 7 (level 1)",
+    "description": "The label for category Category 7 (level 1) in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Link tests": {
+    "message": "Link tests",
+    "description": "The label for category Link tests in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.TOC tests": {
+    "message": "TOC tests",
+    "description": "The label for category TOC tests in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.HTML items tests": {
+    "message": "HTML items tests",
+    "description": "The label for category HTML items tests in sidebar sidebar"
+  },
+  "sidebar.sidebar.link.External Link test": {
+    "message": "External Link test",
+    "description": "The label for link External Link test in sidebar sidebar, linking to https://docusaurus.io"
+  },
+  "sidebar.sidebar.link.Link without description": {
+    "message": "Link without description",
+    "description": "The label for link Link without description in sidebar sidebar, linking to https://docusaurus.io"
+  },
+  "sidebar.sidebar.link.Link with description": {
+    "message": "Link with description",
+    "description": "The label for link Link with description in sidebar sidebar, linking to https://docusaurus.io"
+  },
+  "sidebar.sidebar.link.Link ": {
+    "message": "Link ",
+    "description": "The label for link Link  in sidebar sidebar, linking to https://docusaurus.io"
+  },
+  "sidebar.sidebar.link.Test Test test test test test test": {
+    "message": "Test Test test test test test test",
+    "description": "The label for link Test Test test test test test test in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 0 (level 1)": {
+    "message": "Link 0 (level 1)",
+    "description": "The label for link Link 0 (level 1) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 1 (level 1)": {
+    "message": "Link 1 (level 1)",
+    "description": "The label for link Link 1 (level 1) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 2 (level 1)": {
+    "message": "Link 2 (level 1)",
+    "description": "The label for link Link 2 (level 1) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 3 (level 1)": {
+    "message": "Link 3 (level 1)",
+    "description": "The label for link Link 3 (level 1) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 4 (level 1)": {
+    "message": "Link 4 (level 1)",
+    "description": "The label for link Link 4 (level 1) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 5 (level 1)": {
+    "message": "Link 5 (level 1)",
+    "description": "The label for link Link 5 (level 1) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 6 (level 1)": {
+    "message": "Link 6 (level 1)",
+    "description": "The label for link Link 6 (level 1) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 7 (level 1)": {
+    "message": "Link 7 (level 1)",
+    "description": "The label for link Link 7 (level 1) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 0 (level 2)": {
+    "message": "Link 0 (level 2)",
+    "description": "The label for link Link 0 (level 2) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 1 (level 2)": {
+    "message": "Link 1 (level 2)",
+    "description": "The label for link Link 1 (level 2) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 2 (level 2)": {
+    "message": "Link 2 (level 2)",
+    "description": "The label for link Link 2 (level 2) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 3 (level 2)": {
+    "message": "Link 3 (level 2)",
+    "description": "The label for link Link 3 (level 2) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 4 (level 2)": {
+    "message": "Link 4 (level 2)",
+    "description": "The label for link Link 4 (level 2) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 5 (level 2)": {
+    "message": "Link 5 (level 2)",
+    "description": "The label for link Link 5 (level 2) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 6 (level 2)": {
+    "message": "Link 6 (level 2)",
+    "description": "The label for link Link 6 (level 2) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 7 (level 2)": {
+    "message": "Link 7 (level 2)",
+    "description": "The label for link Link 7 (level 2) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 0 (level 3)": {
+    "message": "Link 0 (level 3)",
+    "description": "The label for link Link 0 (level 3) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 1 (level 3)": {
+    "message": "Link 1 (level 3)",
+    "description": "The label for link Link 1 (level 3) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 2 (level 3)": {
+    "message": "Link 2 (level 3)",
+    "description": "The label for link Link 2 (level 3) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 3 (level 3)": {
+    "message": "Link 3 (level 3)",
+    "description": "The label for link Link 3 (level 3) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 4 (level 3)": {
+    "message": "Link 4 (level 3)",
+    "description": "The label for link Link 4 (level 3) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 5 (level 3)": {
+    "message": "Link 5 (level 3)",
+    "description": "The label for link Link 5 (level 3) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 6 (level 3)": {
+    "message": "Link 6 (level 3)",
+    "description": "The label for link Link 6 (level 3) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link 7 (level 3)": {
+    "message": "Link 7 (level 3)",
+    "description": "The label for link Link 7 (level 3) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.Link (level 4)": {
+    "message": "Link (level 4)",
+    "description": "The label for link Link (level 4) in sidebar sidebar, linking to /"
+  },
+  "sidebar.sidebar.link.External link absolute": {
+    "message": "External link absolute",
+    "description": "The label for link External link absolute in sidebar sidebar, linking to https://github.com/facebook/docusaurus"
+  },
+  "sidebar.sidebar.link.pathname:/// link": {
+    "message": "pathname:/// link",
+    "description": "The label for link pathname:/// link in sidebar sidebar, linking to pathname:///some/local/path"
+  },
+  "sidebar.sidebar.link.pathname:/// link (no baseUrl)": {
+    "message": "pathname:/// link (no baseUrl)",
+    "description": "The label for link pathname:/// link (no baseUrl) in sidebar sidebar, linking to pathname:///some/local/path"
+  },
+  "sidebar.sidebar.doc.Index": {
+    "message": "Index",
+    "description": "The label for the doc item Index in sidebar sidebar, linking to the doc index"
+  }
+}

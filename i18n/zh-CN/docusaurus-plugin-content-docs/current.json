@@ -1,0 +1,82 @@
+{
+  "version.label": {
+    "message": "Canary 🚧",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category Getting Started in sidebar docs"
+  },
+  "sidebar.docs.category.Guides": {
+    "message": "Guides",
+    "description": "The label for category Guides in sidebar docs"
+  },
+  "sidebar.docs.category.Guides.link.generated-index.title": {
+    "message": "Docusaurus Guides",
+    "description": "The generated-index page title for category Guides in sidebar docs"
+  },
+  "sidebar.docs.category.Guides.link.generated-index.description": {
+    "message": "Let's learn about the most important Docusaurus concepts!",
+    "description": "The generated-index page description for category Guides in sidebar docs"
+  },
+  "sidebar.docs.category.Docs": {
+    "message": "Docs",
+    "description": "The label for category Docs in sidebar docs"
+  },
+  "sidebar.docs.category.Sidebar": {
+    "message": "Sidebar",
+    "description": "The label for category Sidebar in sidebar docs"
+  },
+  "sidebar.docs.category.Markdown Features": {
+    "message": "Markdown Features",
+    "description": "The label for category Markdown Features in sidebar docs"
+  },
+  "sidebar.docs.category.Internationalization": {
+    "message": "Internationalization",
+    "description": "The label for category Internationalization in sidebar docs"
+  },
+  "sidebar.docs.category.Advanced Guides": {
+    "message": "Advanced Guides",
+    "description": "The label for category Advanced Guides in sidebar docs"
+  },
+  "sidebar.docs.category.Upgrading": {
+    "message": "Upgrading",
+    "description": "The label for category Upgrading in sidebar docs"
+  },
+  "sidebar.docs.category.To Docusaurus v2": {
+    "message": "To Docusaurus v2",
+    "description": "The label for category To Docusaurus v2 in sidebar docs"
+  },
+  "sidebar.docs.doc.Tutorial": {
+    "message": "Tutorial",
+    "description": "The label for the doc item Tutorial in sidebar docs, linking to the doc i18n/tutorial"
+  },
+  "sidebar.docs.doc.Using Git": {
+    "message": "Using Git",
+    "description": "The label for the doc item Using Git in sidebar docs, linking to the doc i18n/git"
+  },
+  "sidebar.docs.doc.Using Crowdin": {
+    "message": "Using Crowdin",
+    "description": "The label for the doc item Using Crowdin in sidebar docs, linking to the doc i18n/crowdin"
+  },
+  "sidebar.api.category.Plugin method references": {
+    "message": "Plugin method references",
+    "description": "The label for category Plugin method references in sidebar api"
+  },
+  "sidebar.api.category.Plugins": {
+    "message": "Plugins",
+    "description": "The label for category Plugins in sidebar api"
+  },
+  "sidebar.api.category.Themes": {
+    "message": "Themes",
+    "description": "The label for category Themes in sidebar api"
+  },
+  "sidebar.api.category.Miscellaneous": {
+    "message": "Miscellaneous",
+    "description": "The label for category Miscellaneous in sidebar api"
+  },
+  "sidebar.api.category.📦 eslint-plugin": {
+    "message": "📦 eslint-plugin",
+    "description": "The label for category 📦 eslint-plugin in sidebar api"
+  }
+}
