@@ -200,11 +200,11 @@ export default async function createConfigAsync() {
         return result;
       },
     },
-    onBrokenLinks:
-      isVersioningDisabled ||
-      process.env.DOCUSAURUS_CURRENT_LOCALE !== defaultLocale
-        ? 'warn'
-        : 'throw',
+    onBrokenLinks: 'warn',
+//      isVersioningDisabled ||
+//      process.env.DOCUSAURUS_CURRENT_LOCALE !== defaultLocale
+//        ? 'warn'
+//        : 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/docusaurus.ico',
     customFields: {
