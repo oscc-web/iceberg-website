@@ -31,6 +31,7 @@ packages/stylelint-copyright/lib/
 
 netlifyDeployPreview/*
 changelog
+!src/plugins/changelog
 !netlifyDeployPreview/index.html
 !netlifyDeployPreview/_redirects
 
